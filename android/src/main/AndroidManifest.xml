@@ -2,7 +2,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.chavesgu.scan">
 
+    <application>
+        <meta-data
+            android:name="flutterEmbedding"
+            android:value="2" />
+    </application>
+
     <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
     <uses-sdk tools:overrideLibrary="com.google.zxing.client.android" />
 </manifest>
